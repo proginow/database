@@ -1,0 +1,38 @@
+{
+	"name": "proginow/database",
+	"description": "Proginow Framework Database Library,Safe and convenient SQL database access in a driver-agnostic way.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "database", "sql", "pdo", "mysql", "postgresql", "pgsql", "sqlite" ],
+	"require": {
+	  "php": ">=8.1.0",
+	  "ext-pdo": "*"
+	},
+	"authors": [
+	  {
+		"name": "Proginow",
+		"email": "info@proginow.com",
+		"homepage": "https://proginow.com",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/proginow/database"
+	  }
+	],
+	"support": {
+		  "email": "info@proginow.com"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Proginow\\Db\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
