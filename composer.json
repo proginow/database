@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"keywords": [ "database", "sql", "pdo", "mysql", "postgresql", "pgsql", "sqlite" ],
 	"require": {
-	  "php": ">=8.1.0",
+	  "php": ">=8.2.0",
 	  "ext-pdo": "*"
 	},
 	"authors": [
